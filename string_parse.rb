@@ -1,5 +1,5 @@
 class StringParse
-	attr_accessor str
+	attr_accessor :str
 	
 	def initialize(str)
 		@str = str

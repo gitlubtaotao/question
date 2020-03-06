@@ -10,6 +10,8 @@ class FindNode
 		find_children(@tree_node)
 	end
 
+
+
 	#递归调用
 	def find_children(tree_node)
 		return tree_node if tree_node[:id] == @id
